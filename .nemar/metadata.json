@@ -1,0 +1,93 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Isabel W. Tscherniak": {},
+    "Niels C. Thiemann": {},
+    "Ana McWhinnie-Fernandez": {},
+    "Iustin Curcean": {},
+    "Leon L. J. Jokinen": {},
+    "Sadat Hodzic": {},
+    "Thomas E. Huber": {},
+    "Daniel Pavlov": {},
+    "Manuel Methasani": {},
+    "Pietro Marcolongo": {},
+    "Glenn V. Krafczyk": {},
+    "Oscar Osvaldo Soto Rivera": {},
+    "Thien Le": {},
+    "Flaminia Pallotti": {},
+    "Enrico A. Fazzi": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18087806",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000308",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000308",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.48550/arXiv.2511.23384",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "NeuroTUMBCI2025",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "128 MB (9 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A mobile EEG motor imagery dataset recorded from two pilots, one tetraplegic and one able-bodied, during development of the neuroTUM brain-computer interface for the 2024 Cybathlon BCI race. Data were acquired with a 24-channel wireless Smarting mobi system at 250 Hz using a cue-based arrow paradigm. Each participant performed a subject-specific set of three mental tasks drawn from rest, hand motor imagery, and foot motor imagery.",
+  "methods_description": "EEG was recorded with a 24-channel wireless Smarting mobi (mBrainTrain) amplifier at 250 Hz using a 10-20 montage. Each trial consisted of a 3 s fixation reset, a 1 s directional visual cue, a 3 s black-screen execution period for motor imagery, and a 3 s reset. Recordings were made offline without feedback and stored as XDF files across multiple sessions per participant.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Cybathlon"
+    },
+    {
+      "term": "mobile EEG"
+    },
+    {
+      "term": "tetraplegia"
+    }
+  ],
+  "source_hash": "5424a9ba167cabbd3689b9578ac64f0eacfb55e8e7ddf1742c3fb8d4d3f0a232"
+}
