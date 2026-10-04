@@ -1,0 +1,114 @@
+_dataset:
+  class: NeuroTUMBCI2025
+  code: NeuroTUMBCI2025
+  doi: 10.5281/zenodo.18087806
+  interval: !!python/tuple
+  - 0
+  - 3
+  n_subjects: 2
+  paradigm: imagery
+abstract: Two-pilot mobile EEG motor imagery dataset (24-channel Smarting mobi, 250 Hz) collected for the neuroTUM 2024 Cybathlon
+  BCI race, using an arrow-cue paradigm with a subject-specific set of three classes (rest plus hand and/or leg motor imagery).
+acquisition:
+  cap_manufacturer: mBrainTrain
+  cap_model: Smarting mobi
+  channel_types:
+    eeg: 24
+  hardware: Smarting mobi (mBrainTrain), 24-channel, wireless (Bluetooth 2.1)
+  line_freq: 50.0
+  montage: 10-20
+  sampling_rate: 250.0
+  sensors:
+  - Fp1
+  - Fp2
+  - Fz
+  - F1
+  - F2
+  - F3
+  - F4
+  - FC1
+  - FC2
+  - FC3
+  - FC4
+  - Cz
+  - C1
+  - C2
+  - C3
+  - C4
+  - CPz
+  - CP1
+  - CP2
+  - Pz
+  - P3
+  - P4
+  - M1
+  - M2
+documentation:
+  contact_info:
+  - team@neurotum.com
+  country: DE
+  data_url: https://doi.org/10.5281/zenodo.18087806
+  description: Mobile EEG motor imagery dataset from two pilots recorded during the development of the neuroTUM BCI system
+    for the 2024 Cybathlon BCI race.
+  doi: 10.5281/zenodo.18087806
+  institution: Technical University of Munich / neuroTUM e.V.
+  institution_address: Munich, Germany
+  investigators:
+  - Isabel W. Tscherniak
+  - Niels C. Thiemann
+  - Ana McWhinnie-Fernandez
+  - Iustin Curcean
+  - Leon L. J. Jokinen
+  - Sadat Hodzic
+  - Thomas E. Huber
+  - Daniel Pavlov
+  - Manuel Methasani
+  - Pietro Marcolongo
+  - Glenn V. Krafczyk
+  - Oscar Osvaldo Soto Rivera
+  - Thien Le
+  - Flaminia Pallotti
+  - Enrico A. Fazzi
+  license: CC-BY-4.0
+  publication_year: 2025
+  related_paper_dois:
+  - 10.48550/arXiv.2511.23384
+  repository: Zenodo
+experiment:
+  class_labels:
+  - rest
+  - left_hand
+  - right_hand
+  - feet
+  events:
+    feet: 4
+    left_hand: 2
+    rest: 1
+    right_hand: 3
+  feedback_type: none
+  instructions: On a black screen the pilot performs the cued mental task for 3 s following a 1 s directional cue.
+  mode: offline
+  n_classes: 4
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual arrow/circle cues
+  study_design: 'Arrow-cue paradigm with a subject-specific set of three mental tasks (rest, hand and/or leg motor imagery).
+    Each trial: 3 s reset (fixation cross), 1 s directional cue, 3 s blackscreen execution, 3 s reset.'
+  synchronicity: cue-based
+  trial_duration: 3.0
+file_format: XDF
+participants:
+  clinical_population: one tetraplegic pilot and one able-bodied participant
+  health_status: patients
+  n_subjects: 2
+  species: homo sapiens
+preprocessing:
+  data_state: raw
+runs_per_session: 1
+sessions_per_subject: 3
+tags:
+  modality:
+  - Motor
+  type:
+  - Motor Imagery
