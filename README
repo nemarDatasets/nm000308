@@ -132,3 +132,15 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Informed consent was obtained prior to data collection, usage, and publication (neuroTUM e.V. 2025, Zenodo DOI 10.5281/zenodo.18087806). The source does not name the approving ethics committee.
+
+Verbatim from the source:
+
+> Informed consent was obtained prior to data collection, usage, and publication.
+
+Source: Zenodo record 18087806 description (https://zenodo.org/records/18087806).
+
+Note: The source statement is incomplete (no committee named); defers to the primary publication for the full ethics record.
