@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "NeuroTUMBCI2025: Motor imagery dataset from the neuroTUM 2024 Cybathlon BCI",
-  "description": "A mobile EEG motor imagery dataset recorded from two pilots, one tetraplegic and one able-bodied, during development of the neuroTUM brain-computer interface for the 2024 Cybathlon BCI race. Data were acquired with a 24-channel wireless Smarting mobi system at 250 Hz using an arrow-cue paradigm. Each pilot performed a subject-specific set of three mental tasks drawn from rest, hand motor imagery and foot motor imagery. The data are provided in BIDS format with HED event annotations.",
-  "methods_description": "EEG was recorded with a 24-channel Smarting mobi (mBrainTrain) wireless amplifier at 250 Hz using a 10-20 montage. Each trial consisted of a 3 s fixation reset, a 1 s directional arrow cue, a 3 s black-screen mental task execution, and a 3 s reset. Cue classes were rest, left hand, right hand and feet, and each participant performed a subject-specific subset of three. Recordings were offline with no feedback.",
+  "description": "A mobile EEG motor imagery dataset from two pilots, one tetraplegic and one able-bodied, recorded during development of the neuroTUM BCI system for the 2024 Cybathlon BCI race. Data were acquired with a 24-channel wireless Smarting mobi system at 250 Hz using an arrow-cue paradigm. Each participant performed a subject-specific set of three mental tasks drawn from rest, hand and foot motor imagery. The dataset is re-released in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with a 24-channel Smarting mobi (mBrainTrain) wireless amplifier at 250 Hz using a 10-20 montage. Each trial consisted of a 3 s fixation reset, a 1 s directional arrow cue, a 3 s blackscreen execution period for the cued mental task, and a 3 s reset. Events were rest, left hand, right hand and feet. The data are raw with no preprocessing applied.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -90,5 +90,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "e2ecfbabf20029c838efa330a9316a181ab7faf49cf458d4eb226ed55bcbe934"
+  "source_hash": "e2a6665742620a4710527673e5d5e8a8200587f5f27f6bcba6970d30db0d4446"
 }
