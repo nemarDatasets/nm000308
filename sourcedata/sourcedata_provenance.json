@@ -1,1 +1,75 @@
-../.git/annex/objects/9q/Qg/SHA256E-s2078--bfdee7579cb49f4f3dc12b2609257de62bce94241af1899e39d31c90a375ac69.json/SHA256E-s2078--bfdee7579cb49f4f3dc12b2609257de62bce94241af1899e39d31c90a375ac69.json
+{
+ "dataset": "nm000308",
+ "moabb_class": "NeuroTUMBCI2025",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-05",
+ "retrieved_by": "moabb.datasets.NeuroTUMBCI2025.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/NeuroTUMBCI2025/MNE-neurotumbci2025-data/zenodo/18087806",
+ "license": "CC-BY-4.0",
+ "doi": "10.5281/zenodo.18087806",
+ "naming": "upstream_filenames_restored",
+ "n_files": 10,
+ "total_bytes": 293807160,
+ "files": [
+  {
+   "file": "P1_S1_data.xdf",
+   "bytes": 8586085,
+   "sha256": "59faad3b3c1ba6a1cf879f1f9764c5be72bb1598d068ebed354b23d2dda0c76a",
+   "subject": "1"
+  },
+  {
+   "file": "P1_S2_data.xdf",
+   "bytes": 12211159,
+   "sha256": "74db33b887e7706a156225cf95092cf99fc13f225416db48a068f8f99e71da76",
+   "subject": "2"
+  },
+  {
+   "file": "P1_S3_data.xdf",
+   "bytes": 14219505,
+   "sha256": "d40d45f3e91dce9d7891e07dea14f9a22234a00cf63bde8013b281e8204830da",
+   "subject": "3"
+  },
+  {
+   "file": "P1_S4_data.xdf",
+   "bytes": 8743108,
+   "sha256": "5edbe4def0944969cc7732227ba88bdcc717c01966c708475741fe602818b8a2",
+   "subject": "4"
+  },
+  {
+   "file": "P1_S5_data.xdf",
+   "bytes": 10695028,
+   "sha256": "df5e5bb38be8f2ee1edc416cb07645c86b36c82a12504d90ad315cf9ccfa8976",
+   "subject": "5"
+  },
+  {
+   "file": "P1_mapping.yaml",
+   "bytes": 146,
+   "sha256": "52fa2881c73fa33256668d7b45d3647a750acf98d174a087177b1b299840d3de",
+   "subject": "1"
+  },
+  {
+   "file": "P2_S1_data.xdf",
+   "bytes": 69366467,
+   "sha256": "54cb9c3abdbcbd454fa26908817cc67cee62fd6deaa282cee7a842a1560383a5",
+   "subject": "1"
+  },
+  {
+   "file": "P2_S2_data.xdf",
+   "bytes": 75332450,
+   "sha256": "016ec4cb3490d587a6cceb945b02a9040bcebe8e98b788fa1a65b703981d95b2",
+   "subject": "2"
+  },
+  {
+   "file": "P2_S3_data.xdf",
+   "bytes": 94653061,
+   "sha256": "7146cb58272485a1958654954fc87a9d4fd39e42268221720206c9e5c2fbc086",
+   "subject": "3"
+  },
+  {
+   "file": "P2_mapping.yaml",
+   "bytes": 151,
+   "sha256": "6f09b82fde72ded532013629fe08ba3a246f7dc2909f223ca1358e70e6e2e926",
+   "subject": "2"
+  }
+ ]
+}
