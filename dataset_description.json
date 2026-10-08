@@ -1,51 +1,55 @@
 {
-    "Name": "NeuroTUMBCI2025: Motor imagery dataset from the neuroTUM 2024 Cybathlon BCI",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "CC-BY-4.0",
-    "Authors": [
-        "Isabel W. Tscherniak",
-        "Niels C. Thiemann",
-        "Ana McWhinnie-Fernandez",
-        "Iustin Curcean",
-        "Leon L. J. Jokinen",
-        "Sadat Hodzic",
-        "Thomas E. Huber",
-        "Daniel Pavlov",
-        "Manuel Methasani",
-        "Pietro Marcolongo",
-        "Glenn V. Krafczyk",
-        "Oscar Osvaldo Soto Rivera",
-        "Thien Le",
-        "Flaminia Pallotti",
-        "Enrico A. Fazzi"
-    ],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.5281/zenodo.18087806"
-    ],
-    "Keywords": [
-        "Motor",
-        "Motor Imagery",
-        "imagery"
-    ],
-    "DatasetDOI": "doi:10.5281/zenodo.18087806",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.5281/zenodo.18087806",
-            "URL": "https://doi.org/10.5281/zenodo.18087806"
-        }
-    ],
-    "PublicationYear": 2025,
-    "EthicsApprovals": [
-        "Informed consent was obtained prior to data collection, usage, and publication (neuroTUM e.V. 2025, Zenodo DOI 10.5281/zenodo.18087806). The source does not name the approving ethics committee."
-    ]
+  "Name": "NeuroTUMBCI2025: Motor imagery dataset from the neuroTUM 2024 Cybathlon BCI",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Isabel W. Tscherniak",
+    "Niels C. Thiemann",
+    "Ana McWhinnie-Fernandez",
+    "Iustin Curcean",
+    "Leon L. J. Jokinen",
+    "Sadat Hodzic",
+    "Thomas E. Huber",
+    "Daniel Pavlov",
+    "Manuel Methasani",
+    "Pietro Marcolongo",
+    "Glenn V. Krafczyk",
+    "Oscar Osvaldo Soto Rivera",
+    "Thien Le",
+    "Flaminia Pallotti",
+    "Enrico A. Fazzi"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.18087806"
+  ],
+  "Keywords": [
+    "Motor",
+    "Motor Imagery",
+    "imagery"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000308",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.5281/zenodo.18087806",
+      "URL": "https://doi.org/10.5281/zenodo.18087806"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.18087806"
+    }
+  ],
+  "PublicationYear": 2025,
+  "EthicsApprovals": [
+    "Informed consent was obtained prior to data collection, usage, and publication (neuroTUM e.V. 2025, Zenodo DOI 10.5281/zenodo.18087806). The source does not name the approving ethics committee."
+  ],
+  "Version": "1.0.0"
 }
