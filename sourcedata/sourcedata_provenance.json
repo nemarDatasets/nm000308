@@ -21,25 +21,25 @@
    "file": "P1_S2_data.xdf",
    "bytes": 12211159,
    "sha256": "74db33b887e7706a156225cf95092cf99fc13f225416db48a068f8f99e71da76",
-   "subject": "2"
+   "subject": "1"
   },
   {
    "file": "P1_S3_data.xdf",
    "bytes": 14219505,
    "sha256": "d40d45f3e91dce9d7891e07dea14f9a22234a00cf63bde8013b281e8204830da",
-   "subject": "3"
+   "subject": "1"
   },
   {
    "file": "P1_S4_data.xdf",
    "bytes": 8743108,
    "sha256": "5edbe4def0944969cc7732227ba88bdcc717c01966c708475741fe602818b8a2",
-   "subject": "4"
+   "subject": "1"
   },
   {
    "file": "P1_S5_data.xdf",
    "bytes": 10695028,
    "sha256": "df5e5bb38be8f2ee1edc416cb07645c86b36c82a12504d90ad315cf9ccfa8976",
-   "subject": "5"
+   "subject": "1"
   },
   {
    "file": "P1_mapping.yaml",
@@ -51,7 +51,7 @@
    "file": "P2_S1_data.xdf",
    "bytes": 69366467,
    "sha256": "54cb9c3abdbcbd454fa26908817cc67cee62fd6deaa282cee7a842a1560383a5",
-   "subject": "1"
+   "subject": "2"
   },
   {
    "file": "P2_S2_data.xdf",
@@ -63,13 +63,23 @@
    "file": "P2_S3_data.xdf",
    "bytes": 94653061,
    "sha256": "7146cb58272485a1958654954fc87a9d4fd39e42268221720206c9e5c2fbc086",
-   "subject": "3"
+   "subject": "2"
   },
   {
    "file": "P2_mapping.yaml",
    "bytes": 151,
    "sha256": "6f09b82fde72ded532013629fe08ba3a246f7dc2909f223ca1358e70e6e2e926",
    "subject": "2"
+  }
+ ],
+ "revisions": [
+  {
+   "date": "2026-10-17",
+   "version": "1.0.1",
+   "added_files": 0,
+   "added_bytes": 0,
+   "note": "Subject labels corrected for 6 entries (the `subject` field held the session number instead of the participant: P1_S2..P1_S5 were filed under subjects 2-5, P2_S1 under 1 and P2_S3 under 3). New labels follow moabb.datasets.NeuroTUMBCI2025: P1_S2_data.xdf 2 -> 1; P1_S3_data.xdf 3 -> 1; P1_S4_data.xdf 4 -> 1; P1_S5_data.xdf 5 -> 1; P2_S1_data.xdf 1 -> 2; P2_S3_data.xdf 3 -> 2. No file added or changed.",
+   "subject_corrections": 6
   }
  ]
 }
