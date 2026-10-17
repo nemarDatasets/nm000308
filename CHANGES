@@ -1,0 +1,9 @@
+1.0.1 2026-10-17
+  - sourcedata_provenance.json: corrected the subject label of 6 entries (the `subject` field held the session number instead of the participant: P1_S2..P1_S5 were filed under subjects 2-5, P2_S1 under 1 and P2_S3 under 3).
+    P1_S2_data.xdf: 2 -> 1
+    P1_S3_data.xdf: 3 -> 1
+    P1_S4_data.xdf: 4 -> 1
+    P1_S5_data.xdf: 5 -> 1
+    P2_S1_data.xdf: 1 -> 2
+    P2_S3_data.xdf: 3 -> 2
+    No data file added, changed or removed; the BIDS tree is unchanged.
